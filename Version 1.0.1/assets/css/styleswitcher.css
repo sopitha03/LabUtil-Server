@@ -1,0 +1,58 @@
+/* #Style switcher
+================================================== */
+
+#style-switcher { 
+	background:#fff;
+	width:212px;
+	display:block;
+	position:fixed;
+	top:100px;
+	-webkit-box-shadow: 0 0 6px rgba(0,0,0,0.2);
+	-moz-box-shadow: 0 0 5px rgba(0,0,0,0.2);
+	box-shadow: 0 0 5px rgba(0,0,0,0.2);
+	font-size:13px;
+	right: -212px;
+	padding: 0 0 30px;
+	z-index: 9998;
+}
+
+#style-switcher .title-ss { 
+	background:#3f454a;
+	line-height:45px;
+	height:45px;
+	border-bottom:1px solid #dbdbdb;
+	text-align:center;
+	font-size:15px;
+	color:#fff;
+	position: relative;
+ }
+#style-switcher .box-ss {
+  	text-align:center;
+ 	color:#aaa;
+ 	padding: 5px;
+ }
+
+ #style-switcher .box-ss select{
+  	width: 200px;
+  	height: 25px;
+}
+
+#switch-button  { 
+	background:#3f454a;
+ 	width:45px;
+ 	height:45px;
+ 	display:block;
+ 	position:absolute;
+ 	z-index:6789252;
+ 	cursor:pointer;
+ 	top: 0;
+ 	left: -45px;
+ 	text-align: center;
+ 	line-height: 45px;
+ 	font-size: 30px;
+ 	color: #FFF;
+ }
+#switch-button { 
+	left: -45px;
+ 	z-index:100;
+ }
